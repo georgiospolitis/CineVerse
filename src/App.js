@@ -1,4 +1,7 @@
 import {useEffect} from 'react';
+import './App.css';
+import cineverseLogo from './cineverse.svg';
+import searchIcon from './search.svg';
 
 const API_URL = 'http://www.omdbapi.com?apikey=94334455';
 
@@ -16,7 +19,15 @@ const App = () => {
   }, [] );
   
   return(
-    <h1>App</h1>
+    <div className='app'>
+
+      <div className='header-content'>
+        <img className='cineverse-logo' src={cineverseLogo} alt='CineVerse Logo' />
+        <h1>CineVerse</h1>
+        <img className='cineverse-logo' src={cineverseLogo} alt='CineVerse Logo' />
+      </div>
+
+    </div>
   );
 }
 
