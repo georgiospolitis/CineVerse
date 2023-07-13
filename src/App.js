@@ -25,10 +25,6 @@ const App = () => {
 
     setMovies(data.Search);
   }
-
-  useEffect( () => {
-    searchMovies('Spiderman');
-  }, [] );
   
   return(
     <div className='app'>
@@ -65,7 +61,7 @@ const App = () => {
         : //else
         (
           <div className='empty'>
-            <h2>No movies found!</h2>
+            <h2>Ξεκινήστε να γράφετε για αναζήτηση ταινιών!</h2>
           </div>
         )
       }
