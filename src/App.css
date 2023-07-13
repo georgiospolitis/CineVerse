@@ -114,7 +114,7 @@ h1 {
 
 .empty h2 {
   font-size: 1.25rem;
-  color: #f9d3b4;
+  color: rgb(38, 135, 180);
   font-family: var(--font-raleway);
 }
 
@@ -189,7 +189,7 @@ h1 {
 .movie div:nth-of-type(3) h3 {
   margin-top: 5px;
   font-family: "Roboto Slab", serif;
-  color: #f9d3b4;
+  color: rgb(38, 135, 180);
 }
 
 .movie:hover div:nth-of-type(2) {
